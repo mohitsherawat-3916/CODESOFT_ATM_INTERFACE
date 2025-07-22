@@ -42,7 +42,7 @@ import java.util.Scanner;
             double amount;
             while (true){
                 display();
-                System.out.print("Enter your choice");
+                System.out.print("Enter your choice : ");
                 choice=sc.nextInt();
                 switch ((choice)) {
                     case 1:
